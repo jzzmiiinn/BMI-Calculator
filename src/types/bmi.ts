@@ -5,3 +5,5 @@ export type BMIEntry = {
   bmi: number;
   category: string;
 };
+
+export type BMICategory = "Underweight" | "Normal" | "Overweight" | "Obese";
